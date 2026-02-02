@@ -1,0 +1,40 @@
+#Numeric Variables
+
+soccer_ball = 60 
+soccer_cleats = 200
+soccer_shirts = 30
+
+number_ball = 4
+number_cleats = 2
+number_shirts = 3
+
+'''
+Arithmetic operations, in this case we are utilizing multicplication and addition
+to find the total costs of all items.
+'''
+
+total_ball_cost = (soccer_ball * number_ball)
+total_cleats_cost = (soccer_cleats * number_cleats)
+total_shirts_cost = (soccer_shirts * number_shirts)
+
+total_overall_cost = (total_ball_cost + total_cleats_cost + total_shirts_cost)
+
+
+#String with manipulation
+
+player_one = "jesus"
+
+corrected_name_player_one = player_one.capitalize()
+'''
+Boolean exression, where we find if the user meets a minmum for a discount using a
+True or False statement
+'''
+
+discount_minimum = 300 
+
+meets_discount_minimum = total_overall_cost >= discount_minimum 
+
+
+print(f"Player: {corrected_name_player_one}")
+print(f"{corrected_name_player_one} purchased {number_ball} soccer balls, {number_cleats} cleats, and {number_shirts} jerserys.")
+print(f"Does {corrected_name_player_one} meet the minimum for a discount? {meets_discount_minimum}")
